@@ -6,7 +6,210 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bapul Marafon</title>
   <style>
-    *{margin:0;padding:0;box-sizing:border-box}body{background:linear-gradient(270deg,#E3FFE0 0%,#FEFAE3 100%);overflow-x:hidden}.container{max-width:390px;margin-left:auto;margin-right:auto}.hero{background:linear-gradient(270deg,#E3FFE0 0%,#FEFAE3 100%);max-width:390px;margin-left:auto;margin-right:auto}.hero__top{max-width:390px;margin-left:auto;margin-right:auto;background-color:#FFF;border-bottom-right-radius:24px;border-bottom-left-radius:24px;padding:16px 24px;border-bottom:1px solid #13A578;display:flex;align-items:center;justify-content:space-between;margin-bottom:24px}.hero__top__text{font-family: HelveticaNeue , sans-serif;font-weight:500;font-size:16px;line-height:100%;text-align:center;display:flex;align-items:center;gap:10px}.hero__center{position:relative}.hero__img{position:absolute;top:120px;max-width:420px;width:100%;height:auto;margin-left:auto;margin-right:auto}.hero__center__text{font-family:HelveticaNeue,sans-serif;font-weight:400;font-size:16px;line-height:31px;text-align:center;text-transform:uppercase;color:#149A3D;background-color:#FFF2A8;max-width:191px;width:100%;border-radius:16px;display:flex;align-items:center;justify-content:center;margin-left:auto;margin-right:auto;margin-bottom:10px}.hero__center__title{font-family:HelveticaNeue,sans-serif;font-weight:700;font-size:38px;line-height:40px;text-align:center;text-transform:uppercase}.hero__center__title span{color:#149A3D}.logo{display:flex;margin-left:auto;margin-right:auto;max-width:431px;width:100%;height:auto}.btn{font-family:HelveticaNeue,sans-serif;font-weight:400;font-size:20px;line-height:40px;text-align:center;text-transform:uppercase;color:#FFF;max-width:350px;width:100%;margin-left:auto;margin-right:auto;display:flex;align-items:center;justify-content:center;padding:35px 0 25px 0;background:linear-gradient(180deg,#19DB59 0%,#00C515 52%,#00B400 100%);border:none;border-radius:20px;box-shadow:0 7px 0 #049200,0 10px 28px rgb(20 163 66 / .36),inset 7px 7px 11px rgb(255 255 255 / .25),inset 0 2px 0 rgb(4 34 0 / .45);cursor:pointer;height:89px;margin-top:-35px;position:relative;z-index:11}.hero__center__flex{margin-top:26px;margin-left:auto;margin-right:auto;display:flex;align-items:center;gap:5px;max-width:224px;width:100%;position:relative}.hero__center__flex__text{font-family:Inter,sans-serif;font-weight:500;font-size:16px;line-height:100%;text-align:center}.arrow{position:absolute;right:10px;top:-10px}.hero__bottom{padding-top:29px;padding-bottom:22px}.hero__bottom__title{font-family:HelveticaNeue,sans-serif;font-weight:400;font-size:23.75px;line-height:40px;text-align:center;text-transform:uppercase;margin-bottom:8px}.hero__bottom__inner{display:flex;align-items:center;flex-direction:column;gap:10px;width:100%;margin-bottom:50px}.hero__bottom__inner__row{background-color:#FFF;padding:10px 14px 11px 14px;border-radius:14px;display:flex;align-items:center;flex-direction:column}.img__1{height:auto}.hero__bottom__inner__row__text{font-family:Inter,sans-serif;font-weight:400;font-size:16px;line-height:23px;text-align:center;margin-top:11px}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box
+    }
+
+    body {
+      background: linear-gradient(270deg, #E3FFE0 0%, #FEFAE3 100%);
+      overflow-x: hidden
+    }
+
+    .container {
+      max-width: 390px;
+      margin-left: auto;
+      margin-right: auto
+    }
+
+    .hero {
+      background: linear-gradient(270deg, #E3FFE0 0%, #FEFAE3 100%);
+      max-width: 390px;
+      margin-left: auto;
+      margin-right: auto
+    }
+
+    .hero__top {
+      max-width: 390px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #FFF;
+      border-bottom-right-radius: 24px;
+      border-bottom-left-radius: 24px;
+      padding: 16px 24px;
+      border-bottom: 1px solid #13A578;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px
+    }
+
+    .hero__top__text {
+      font-family: HelveticaNeue, sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 100%;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      gap: 10px
+    }
+
+    .hero__center {
+      position: relative
+    }
+
+    .hero__img {
+      position: absolute;
+      top: 120px;
+      max-width: 420px;
+      width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto
+    }
+
+    .hero__center__text {
+      font-family: HelveticaNeue, sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 31px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #149A3D;
+      background-color: #FFF2A8;
+      max-width: 191px;
+      width: 100%;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px
+    }
+
+    .hero__center__title {
+      font-family: HelveticaNeue, sans-serif;
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 40px;
+      text-align: center;
+      text-transform: uppercase
+    }
+
+    .hero__center__title span {
+      color: #149A3D
+    }
+
+    .logo {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 431px;
+      width: 100%;
+      height: auto
+    }
+
+    .btn {
+      font-family: HelveticaNeue, sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 40px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFF;
+      max-width: 350px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 35px 0 25px 0;
+      background: linear-gradient(180deg, #19DB59 0%, #00C515 52%, #00B400 100%);
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0 7px 0 #049200, 0 10px 28px rgb(20 163 66 / .36), inset 7px 7px 11px rgb(255 255 255 / .25), inset 0 -0.5px 0 rgb(4 34 0 / .45);
+      cursor: pointer;
+      height: 89px;
+      margin-top: -35px;
+      position: relative;
+      z-index: 11
+    }
+
+    .hero__center__flex {
+      margin-top: 26px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      max-width: 224px;
+      width: 100%;
+      position: relative
+    }
+
+    .hero__center__flex__text {
+      font-family: Inter, sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 100%;
+      text-align: center
+    }
+
+    .arrow {
+      position: absolute;
+      right: 10px;
+      top: -10px
+    }
+
+    .hero__bottom {
+      padding-top: 29px;
+      padding-bottom: 22px
+    }
+
+    .hero__bottom__title {
+      font-family: HelveticaNeue, sans-serif;
+      font-weight: 400;
+      font-size: 23.75px;
+      line-height: 40px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 8px
+    }
+
+    .hero__bottom__inner {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      margin-bottom: 50px
+    }
+
+    .hero__bottom__inner__row {
+      background-color: #FFF;
+      padding: 10px 14px 11px 14px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      flex-direction: column
+    }
+
+    .img__1 {
+      height: auto
+    }
+
+    .hero__bottom__inner__row__text {
+      font-family: Inter, sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 23px;
+      text-align: center;
+      margin-top: 11px
+    }
   </style>
   <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
   <noscript>
@@ -23,14 +226,15 @@
         <div class="hero__top">
           <p class="hero__top__text"><img src="./images/calendar.svg" width="19" height="19" loading="lazy"
               decoding="async" alt="calendar">16-May</p>
-          <p class="hero__top__text"><img src="./images/clock.svg" width="16" height="16" loading="lazy" decoding="async"
-              alt="clock">20:00</p>
+          <p class="hero__top__text"><img src="./images/clock.svg" width="16" height="16" loading="lazy"
+              decoding="async" alt="clock">20:00</p>
         </div>
         <div class="hero__center">
           <img src="./images/hero__img.avif" width="420" height="199" loading="lazy" decoding="async" alt="HeroImg"
             class="hero__img">
           <p class="hero__center__text">Bepul marafon</p>
-          <h2 class="hero__center__title">Qur’onni <span>tez</span> va <br> <span>onson</span> yodlash <br> usullari</h2>
+          <h2 class="hero__center__title">Qur’onni <span>tez</span> va <br> <span>onson</span> yodlash <br> usullari
+          </h2>
           <div class="hero__center__col">
             <img src="./images/logo.avif" width="431" height="313" loading="lazy" decoding="async" alt="logo"
               class="logo">
@@ -69,7 +273,7 @@
             <img src="./images/arrow.svg" width="31" height="24" loading="lazy" alt="arrow" class="arrow">
           </div>
         </div>
-  
+
       </div>
     </section>
   </main>
